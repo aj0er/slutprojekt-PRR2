@@ -4,11 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
-    <BaseOutputPath>C:\Users\dev\source\repos\BUILD\</BaseOutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Users\dev\source\repos\BUILD\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
